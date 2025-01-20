@@ -1,0 +1,12 @@
+[servers]
+ansible-target-1 ansible_host=0 ansible_connection=ssh ansible_user=ubuntu
+ansible-target-2 ansible_host=0 ansible_connection=ssh ansible_user=ubuntu
+ansible-target-3 ansible_host=0 ansible_connection=ssh ansible_user=ubuntu
+
+[target]
+ansible-target-1
+ansible-target-2
+ansible-target-3
+
+[observer]
+ansible-target-3
